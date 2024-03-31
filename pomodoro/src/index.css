@@ -142,6 +142,24 @@ place-items : center;
   }
 }
 
+@media screen and (max-width: 480px ) {
+  .countdown {
+    font-size: 1.8rem;
+    position: absolute;
+    top: 40%;
+   left: 50%;
+   transform: translate(-50%, -50%);
+
+  }
+
+  .countdown > button {
+    margin-top: 0.5rem;
+    font-size: 1.6rem;
+    height: 2.5rem;
+    width: 6rem;
+  }
+}
+
 @media screen and (max-width: 1200px ) {
   .countdown {
     font-size: 1.8rem;
